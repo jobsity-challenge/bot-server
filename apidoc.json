@@ -1,0 +1,15 @@
+{
+  "name": "bot-server-doc",
+  "version": "1.0.0",
+  "description": "JobSity Challenge Chat Bot Server API Documentation",
+  "title": "JobSity Challenge Chat Bot Server API Documentation",
+  "url": "https://bot.jobsity.ikoabo.com",
+  "header": {
+    "title": "Chat Bot Server API",
+    "filename": "./README.md"
+  },
+  "template": {
+    "withCompare": false,
+    "withGenerator": true
+  }
+}
