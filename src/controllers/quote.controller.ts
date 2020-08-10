@@ -40,7 +40,7 @@ class Quote {
     return new Promise<string[]>((resolve, reject) => {
 
       /* Request the quote to server */
-      request.get(`https://stooq.com/q/l/?s=${param}&f=sd2t2ohlcv&h&e=csv`, {},
+      request.get(`https://stooq.com/q/l/?s=${param.toLowerCase()}&f=sd2t2ohlcv&h&e=csv`, {},
         (error: any, response: request.Response, body: any) => {
           if (error) {
             this._logger.error(
